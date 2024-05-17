@@ -1,0 +1,197 @@
+@font-face {
+  font-family: 'playfair';
+  src: url(../Fonts/playfair/PlayfairDisplay-Bold.ttf);
+}
+
+#black-theme-splash {
+  .splashMain {
+    background-color: #222222 !important;
+    height: 100vh;
+    width: 100%;
+    // color: #222222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .splashName p {
+    font-family: 'playfair';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 120px;
+    line-height: 160px;
+    text-align: center;
+    color: #222222;
+    -webkit-text-stroke: 2px rgb(255, 255, 255);
+  }
+  .splashName p::first-letter {
+    text-transform: capitalize;
+  }
+
+  .splashMain {
+    //   -webkit-animation-duration: 1s;animation-duration: 1s;
+    //   -webkit-animation-fill-mode: both;animation-fill-mode: both;
+  }
+
+  @-webkit-keyframes fadeOut {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+  @keyframes fadeOut {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+  //   .splashMain {
+  //      -webkit-animation-name: fadeOut;
+  //      animation-name: fadeOut;
+  //   }
+
+  .splashName {
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .splashName {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+  }
+
+  @media only screen and (max-width: 1024px) {
+  }
+  @media only screen and (max-width: 924px) {
+  }
+  @media only screen and (max-width: 824px) {
+  }
+  @media only screen and (max-width: 724px) {
+  }
+  @media only screen and (max-width: 650px) {
+  }
+  @media only screen and (max-width: 450px) {
+  }
+  @media only screen and (max-width: 450px) {
+  }
+}
+
+#white-theme-splash {
+  .splashMain {
+    background-color: #222222 !important;
+    height: 100vh;
+    width: 100%;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .splashName {
+    font-family: 'playfair';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 120px;
+    line-height: 160px;
+    text-align: center;
+    color: #ffffff;
+  }
+  .splashName::first-letter {
+    text-transform: capitalize;
+  }
+  .splashMain {
+    //   -webkit-animation-duration: 4s;animation-duration: 4s;
+    //   -webkit-animation-fill-mode: both;animation-fill-mode: both;
+  }
+
+  @-webkit-keyframes fadeOut {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+  @keyframes fadeOut {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  .splashMain {
+    -webkit-animation-name: fadeOut;
+    animation-name: fadeOut;
+  }
+
+  .splashName {
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .splashName {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+  }
+
+  @media only screen and (max-width: 1024px) {
+  }
+  @media only screen and (max-width: 924px) {
+  }
+  @media only screen and (max-width: 824px) {
+  }
+  @media only screen and (max-width: 724px) {
+  }
+  @media only screen and (max-width: 650px) {
+  }
+  @media only screen and (max-width: 450px) {
+  }
+  @media only screen and (max-width: 450px) {
+  }
+}

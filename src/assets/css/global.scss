@@ -1,0 +1,22 @@
+@import './frontSection.scss';
+@import './splash.scss';
+@import './projects.scss';
+
+body {
+  background-color: #222222 !important;
+}
+* {
+  margin: 0 auto;
+  scroll-behavior: calc(2sec);
+  scroll-behavior: calc(2sec);
+  transition: 0.3s all ease-in-out;
+  // background-color: #262626;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+*::selection {
+  color: #ffcf2b;
+  background: #262626;
+}
