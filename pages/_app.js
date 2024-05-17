@@ -2,6 +2,7 @@
 import '../src/assets/css/global.scss'
 import Head from 'next/head';
 
+
 function MyApp({ Component, pageProps }) {
     return (
         <>
