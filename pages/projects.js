@@ -64,16 +64,16 @@ const FrontSection = () => {
               <p>This is a One page Website for like informing the viewers , created on next js .</p>
             </div>
 
-            <div onClick={()=>{  window.open('https://axiovoice.com/', '_blank');}} onMouseEnter={() => setHoveredDiv(4)}
+            <div onClick={()=>{  window.open('https://unitechagency.com/', '_blank');}} onMouseEnter={() => setHoveredDiv(4)}
               onMouseLeave={() => setHoveredDiv(null)} className='main-projects-div-sub'>
               <div className='main-projects-div-sub-round'>
                 {hoveredDiv === 4 ?
                   <div className={`${hoveredDiv === 4 && 'opa'}`}>
                     <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v280h-80v-280H200v560h280v80H200Zm360 0v-80h144L332-572l56-56 372 371v-143h80v280H560Z" /></svg>
-                  </div> : <img style={{ width: '100%', borderRadius: 'inherit' }} src='https://businessconnector.app/assets/img/Favicon.png' />
+                  </div> : <img style={{ width: '100%', borderRadius: 'inherit' }} src='https://unitechagency.com/logo-black.png' />
                 } </div>
-              <h4>Axiovoice</h4>
-              <p>Welcome to Axio Voice Simplify Your Business Communications Transform the way you communicate with our innovative cloud voice communication solutions.</p>
+              <h4>Uni tech Agency</h4>
+              <p>Uni Tech Agency is a leading provider of innovative technology solutions. Our mission is to empower businesses with advanced tech tools and services.</p>
             </div>
 
             {/* <div className='main-projects-div-sub'>

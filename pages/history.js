@@ -28,8 +28,8 @@ const FrontSection = () => {
                     <div className='main-projects-div'>
 
                         <div onClick={() => { window.open('https://internativelabs.com', '_blank'); }} onMouseEnter={() => setHoveredDiv(1)}
-                            onMouseLeave={() => setHoveredDiv(null)} className='main-projects-div-sub'>
-                            <div className={`main-projects-div-sub-round `}>
+                            onMouseLeave={() => setHoveredDiv(null)} className='main-projects-div-sub' style={{paddingBottom : '33px'}}>
+                            <div className={`main-projects-div-sub-round `} >
                                 {hoveredDiv === 1 ?
                                     <div className={`${hoveredDiv === 1 && 'opa'}`}>
                                         <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v280h-80v-280H200v560h280v80H200Zm360 0v-80h144L332-572l56-56 372 371v-143h80v280H560Z" /></svg>
@@ -37,7 +37,7 @@ const FrontSection = () => {
                                     <img style={{ width: '100%', borderRadius: 'inherit' }} src='https://internativelabs.com/wp-content/uploads/2024/01/cropped-favicon-32x32.png' />}
                             </div>
                             <h4>Internative Labs</h4>
-                            <p>Its a Software company in Karachi,I have completed my internship from feb-jun/2023 as a junior mernstack developer, then got transfered in Monsterhub</p>
+                            <p>I successfully completed a Frontend Developer internship at a Software company in Karachi from February to June 2023. This experience enhanced my skills and expertise in frontend development</p>
                         </div>
 
                         {/* <div onClick={() => { window.open('https://monsterhub.io/', '_blank'); }} onMouseEnter={() => setHoveredDiv(2)}
@@ -62,7 +62,7 @@ const FrontSection = () => {
                                     <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M480-120q-33 0-56.5-23.5T400-200q0-33 23.5-56.5T480-280q33 0 56.5 23.5T560-200q0 33-23.5 56.5T480-120Zm-80-240v-480h160v480H400Z"/></svg>                                }
                                 </div>
                             <h4>Currently!</h4>
-                            <p>Currently i am not working full time in a company cause of my university studies, but on small projects , if u also wanna hire me for project then Contact me.</p>
+                            <p>I am currently balancing my university studies with engaging in small-scale projects. If you are interested in collaborating on a project, please feel free to reach out to me.</p>
                         </div>
 
                     </div>
